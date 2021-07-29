@@ -38,8 +38,8 @@ input{
     margin: 1rem auto;
     padding: 20px;
     background-color:#f9f9f9;
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px,
-    rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    box-shadow: rgba(82, 80, 80, 0.12) 0px 1px 3px,
+    rgba(82, 79, 79, 0.24) 0px 1px 2px;
     border-radius: 15px;
 }
 .nav{
@@ -83,7 +83,7 @@ input{
 }
 .form input{
     width: 305px;
-    padding: 10px;
+    padding: 12px 10px;
     background-color: rgb(241, 241, 241);
     /* background-color: rgb(233, 232, 232); */
     font-size: 16px;
