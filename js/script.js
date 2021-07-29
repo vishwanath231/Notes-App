@@ -160,11 +160,8 @@ function filterTitle() {
 
         if (title.innerHTML.toUpperCase().indexOf(inputText) != -1) {  
             notesBox[i].style.display = "";
-            document.querySelector(".errMsg").innerHTML = "";
-
         }else{
             notesBox[i].style.display = "none";
-            document.querySelector(".errMsg").innerHTML = "Not Found";
         }
 
     }
