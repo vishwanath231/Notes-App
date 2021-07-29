@@ -103,7 +103,7 @@ input{
 .notes{
     display: block;
     overflow: auto;
-    height: 60vh;
+    height: 55vh;
 }
 
 .notes__box{
@@ -252,10 +252,10 @@ input:-webkit-autofill {
 
 @media(max-width:500px){
     .notes__container{
-        width: 390px;
+        width: 380px;
     }
     .form input {
-        width: 290px;
+        width: 280px;
     }
 }
 @media(max-width:375px){
