@@ -38,8 +38,8 @@ input{
     margin: 1rem auto;
     padding: 20px;
     background-color:#f9f9f9;
-    box-shadow: rgba(82, 80, 80, 0.12) 0px 1px 3px,
-    rgba(82, 79, 79, 0.24) 0px 1px 2px;
+    box-shadow: rgba(143, 141, 141, 0.12) 0px 1px 6px,
+    rgba(143, 141, 141, 0.12) 0px 1px 2px;
     border-radius: 15px;
 }
 .nav{
@@ -103,7 +103,7 @@ input{
 .notes{
     display: block;
     overflow: auto;
-    height: 55vh;
+    height: 60vh;
 }
 
 .notes__box{
@@ -135,7 +135,7 @@ input{
     justify-content: left;
     align-items: left;
     text-align: left;
-    margin: .4rem 0 .3rem 0;
+    margin: 1rem 0 .3rem 0;
 }
 
 .title__container,
@@ -148,8 +148,8 @@ input{
 
 .notes__box .time__container{
     position: absolute;
-    top: 0;
-    right: 5px;
+    top: 6px;
+    right: 6px;
     font-size: 13px;
     font-weight:500;
     color: coral;
@@ -252,18 +252,18 @@ input:-webkit-autofill {
 
 @media(max-width:500px){
     .notes__container{
-        width: 380px;
+        width: 390px;
     }
     .form input {
-        width: 280px;
+        width: 290px;
     }
 }
 @media(max-width:375px){
     .notes__container{
-        width: 340px;
+        width: 350px;
     }
     .form input {
-        width: 240px;
+        width: 250px;
     }
     .title__container{
         margin-top: 1rem;
