@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font/css/all.css">
+</head>
+<body>
+
+    <div class="notes__container">
+
+        <div class="add__form">
+            <i class="fas fa-clipboard"></i>
+            <div class="headTitle">add Notes</div>
+            <form id="form">
+                <input type="text" id="title" placeholder="Title" required>
+                <textarea id="body" placeholder="Body" required></textarea>
+                <button type="submit">Add</button>
+            </form>
+        </div>
+        
+
+        <nav class="nav">
+            <div class="head_title">Sticky Notes</div>
+            <button class="add__notes-btn"><i class="fas fa-plus"></i></button>
+        </nav>
+
+
+        <form class="form">
+            <input type="text" placeholder="Search Title..." id="filter">
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </form>
+
+        <div class="errMsg"></div>
+        <div class="notes" id="notes"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
